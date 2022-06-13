@@ -178,8 +178,7 @@ class Book {
         }
         @Override
         public String toString() {
-            return " RentSettings (" + rentDate + ", " + dueDate + ", " + 
-library.libraryName + ", " + borrowed + ")\n";
+            return " RentSettings (" + rentDate + ", " + dueDate + ", " + library.libraryName + ", " + borrowed + ")\n";
         }
     }
 }
